@@ -1,0 +1,9 @@
+title: Stop Luptelor cu Câini
+description: > # this means to ignore newlines until "baseurl:"
+În România încă se organizează lupte ilegale de câini! Ajutați-ne să oprim această practică.
+# Project Settings
+url: "stopluptelorcucaini.github.io"
+baseurl: ""
+
+plugins:
+  - jekyll-seo-tag
