@@ -170,7 +170,7 @@ slug: index
         <label for="inputLocation" class="formp2"
           >Dacă raportarea este despre un eveniment trecut, indicați când a avut loc evenimentul. Dacă știți despre o luptă care va avea loc în viitor, introduceți data aici. Dacă raportarea se referă la o operațiune de reproducere suspectă, indicați când ați luat cunoștință despre aceasta.</label
         >
-        <input type="datapick" id="datepicker" name="data" />
+        <input type="datapick" id="datepicker" name="date" />
         <script>
           $("#datepicker").datepicker({
             uiLibrary: "bootstrap4",
@@ -186,7 +186,7 @@ slug: index
             class="form-check-input formp1"
             type="checkbox"
             id="gridCheck1"
-            name="skad_swiadek"
+            name="witness"
           />
           <label class="form-check-label formp1" for="gridCheck1">
             Sunt martor
@@ -197,7 +197,7 @@ slug: index
             class="form-check-input formp1"
             type="checkbox"
             id="gridCheck1"
-            name="skad_zaufanaosoba"
+            name="trustedperson"
           />
           <label class="form-check-label formp1" for="gridCheck1">
             Știu de la o persoană de încredere
@@ -208,7 +208,7 @@ slug: index
             class="form-check-input formp1"
             type="checkbox"
             id="gridCheck1"
-            name="skad_odkogos"
+            name="someone"
           />
           <label class="form-check-label formp1" for="gridCheck1">
             Am aflat accidental de la un străin
